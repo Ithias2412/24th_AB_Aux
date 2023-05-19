@@ -14,7 +14,7 @@ class CfgPatches {
 		requiredAddons[] = {};
 	};
 };
-//#include "xtdGear.hpp"
+#include "xtdGear.hpp"
 class CfgVehicles
 {
 	class OPTRE_UNSC_Rucksack;
