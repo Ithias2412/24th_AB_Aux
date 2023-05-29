@@ -63,15 +63,15 @@ class XtdGearModels
 			class Configuration
 			{
 				label = "Configuration";
-				values[] = {"Recruit","Specialist","TL","SL","Medic","JTAC"};
+				values[] = {"Recruit","Rifleman","TL","SL","Medic","JTAC"};
 				class Recruit
 				{
 					label = "Recruit";
 					image = "#(rgb,8,8,3)color(0.2,0.2,0.2,0.4)";
 				};
-				class Specialist
+				class Rifleman
 				{
-					label = "Specialist";
+					label = "Rifleman";
 					image = "#(rgb,8,8,3)color(0.2,0.2,0.2,0.4)";
 				};
 				class TL

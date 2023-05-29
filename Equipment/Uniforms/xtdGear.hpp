@@ -2,7 +2,7 @@ class XtdGearModels
 {
 	class CfgWeapons
 	{
-		class Uniforms
+		class 24th_Uniforms
 		{
 			label = "Uniforms";
 			author = "Ithias";
@@ -66,7 +66,7 @@ class XtdGearInfos
 		//Urban
 		class 24th_Athena_BDU_Slim
 		{
-		model = "Uniforms";
+		model = "24th_Uniforms";
 		Uniform_Camo = "Urban";
 		Type = "Full";
 		};
@@ -82,7 +82,7 @@ class XtdGearInfos
 		//Desert
 		class 24th_Athena_BDU_Slim_Desert
 		{
-		model = "Uniforms";
+		model = "24th_Uniforms";
 		Uniform_Camo = "Desert";
 		Type = "Full";
 		};
@@ -98,7 +98,7 @@ class XtdGearInfos
 		//Snow
 		class 24th_Athena_BDU_Slim_Snow
 		{
-		model = "Uniforms";
+		model = "24th_Uniforms";
 		Uniform_Camo = "Snow";
 		Type = "Full";
 		};
@@ -114,7 +114,7 @@ class XtdGearInfos
 		//Woodland
 		class 24th_Athena_BDU_Slim_Woodland
 		{
-		model = "Uniforms";
+		model = "24th_Uniforms";
 		Uniform_Camo = "Woodland";
 		Type = "Full";
 		};
