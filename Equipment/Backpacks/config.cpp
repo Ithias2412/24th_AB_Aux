@@ -320,8 +320,8 @@ class CfgVehicles
         tf_hasLRradio=1;
 	};
 
-//Snow Rucksacks (Use Uniform texture for backpacks)
-/*
+//Snow Rucksack
+
 	class 24th_Athena_Rucksack_Basic_Snow: OPTRE_UNSC_Rucksack
 	{
 		dlc="24th Aux";
@@ -410,7 +410,7 @@ class CfgVehicles
         tf_dialogUpdate="[""%1""] call TFAR_fnc_updateLRDialogToChannel;";
         tf_hasLRradio=1;
 	};
-*/
+
 
 //Satchel
 
