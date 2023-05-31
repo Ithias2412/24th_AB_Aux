@@ -21,6 +21,13 @@ class cfgWeapons
 	class 24th_Armor_SL;
 	class 24th_Armor_Medic;
 	class 24th_Armor_JTAC;
+	class 24th_Armor_Recruit_Heavy;
+	class 24th_Armor_Rifleman_Heavy;
+	class 24th_Armor_TL_Heavy;
+	class 24th_Armor_SL_Heavy;
+	class 24th_Armor_Medic_Heavy;
+	class 24th_Armor_JTAC_Heavy;
+
 
 //Desert 
 
@@ -461,4 +468,115 @@ class 24th_Athena_Armor_JTAC_Woodland: 24th_Armor_JTAC
 			"optre_unsc_units\army\data\odst_armor_co.paa"
 		};
 	};
+
+//Urban 
+
+class 24th_Athena_Armor_Recruit_Heavy: 24th_Armor_Recruit_Heavy
+	{
+		scope = 2;
+        scopeCurator = 2;
+        scopeArsenal = 2;
+		dlc = "24th AUX";
+		author = "Ithias";
+		displayName="[24th] Athena Armor (Recruit / Heavy)";
+		hiddenSelectionsTextures[]=
+		{
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Vest_Urban",
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Armor_Recruit_Urban",
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Leg_Urban",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"optre_unsc_units\army\data\odst_armor_co.paa"
+		};
+	};
+	
+class 24th_Athena_Armor_Rifleman_Heavy: 24th_Armor_Rifleman_Heavy
+	{
+		scope = 2;
+        scopeCurator = 2;
+        scopeArsenal = 2;
+		dlc = "24th AUX";
+		author = "Ithias";
+		displayName="[24th] Athena Armor (Rifleman / Heavy)";
+		hiddenSelectionsTextures[]=
+		{
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Vest_Urban",
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Armor_Urban",
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Leg_Urban",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"optre_unsc_units\army\data\odst_armor_co.paa"
+		};
+	};
+
+class 24th_Athena_Armor_TL_Heavy: 24th_Armor_TL_Heavy
+	{
+		scope = 2;
+        scopeCurator = 2;
+        scopeArsenal = 2;
+		dlc = "24th AUX";
+		author = "Ithias";
+		displayName="[24th] Athena Armor (Team Leader / Heavy)";
+		hiddenSelectionsTextures[]=
+		{
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Vest_Urban",
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Armor_NCO_Urban",
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Leg_Urban",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"optre_unsc_units\army\data\odst_armor_co.paa"
+		};
+	};
+
+class 24th_Athena_Armor_SL_Heavy: 24th_Armor_SL_Heavy
+	{
+		scope = 2;
+        scopeCurator = 2;
+        scopeArsenal = 2;
+		dlc = "24th AUX";
+		author = "Ithias";
+		displayName="[24th] Athena Armor (Squad Leader / Heavy)";
+		hiddenSelectionsTextures[]=
+		{
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Vest_Urban",
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Armor_NCO_Urban",
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Leg_Urban",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"optre_unsc_units\army\data\odst_armor_co.paa"
+		};
+	};
+	
+class 24th_Athena_Armor_Medic_Heavy: 24th_Armor_Medic_Heavy
+	{
+		scope = 2;
+        scopeCurator = 2;
+        scopeArsenal = 2;
+		dlc = "24th AUX";
+		author = "Ithias";
+		displayName="[24th] Athena Armor (Medic / Heavy)";
+		hiddenSelectionsTextures[]=
+		{
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Vest_Urban",
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Armor_Urban",
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Leg_Urban",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"optre_unsc_units\army\data\odst_armor_co.paa"
+		};
+	};
+	
+class 24th_Athena_Armor_JTAC_Heavy: 24th_Armor_JTAC_Heavy
+	{
+		scope = 2;
+        scopeCurator = 2;
+        scopeArsenal = 2;
+		dlc = "24th AUX";
+		author = "Ithias";
+		displayName="[24th] Athena Armor (JTAC / Heavy)";
+		hiddenSelectionsTextures[]=
+		{
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Vest_Urban",
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Armor_Urban",
+			"24th_AB_AUX\Equipment\Vests\Tex\24th_Athena_Leg_Urban",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
+			"optre_unsc_units\army\data\odst_armor_co.paa"
+		};
+	};
+
 };
