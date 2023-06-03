@@ -469,7 +469,7 @@ class 24th_Athena_Armor_JTAC_Woodland: 24th_Armor_JTAC
 		};
 	};
 
-//Urban 
+//Heavy 
 
 class 24th_Athena_Armor_Recruit_Heavy: 24th_Armor_Recruit_Heavy
 	{
