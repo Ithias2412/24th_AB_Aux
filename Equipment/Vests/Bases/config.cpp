@@ -633,13 +633,13 @@ class 24th_Armor_Recruit_Heavy: 24th_Armor_Recruit
                 class Neck
                 {
                     hitpointName = "HitNeck";
-                    armor = 40;
+                    armor = 45;
                     passThrough = 0.1;
                 };
                 class Arms
                 {
                     hitpointName = "HitArms";
-                    armor = 40;
+                    armor = 45;
                     passThrough = 0.1;
                 };
                 class Chest
@@ -664,12 +664,12 @@ class 24th_Armor_Recruit_Heavy: 24th_Armor_Recruit
                 {
                     hitpointName = "HitBody";
                     passThrough = 0.1;
-                    armor = 40;
+                    armor = 45;
                 };
                 class Legs
                 {
                     hitpointName = "HitLegs";
-                    armor = 40;
+                    armor = 45;
                     passThrough = 0.1;
                 };
             };
