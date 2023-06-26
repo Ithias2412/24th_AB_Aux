@@ -52,13 +52,27 @@ class CfgVehicles
         maximumload = 350;
 		hiddenSelections[]=
 		{
+			"camo",
 			"camo1"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			""
+			"24th_AB_AUX\Equipment\Backpacks\Jumpacks\Tex\24th_Jetpack.paa"
 		};
 		picture="\OPTRE_weapons\backpacks\icons\icon_jetpack_ca.paa";
+    };
+
+    class 24th_Athena_Jumpack_On: 24th_Athena_Jumpack
+    {
+        displayname = "[24th] Athena Jumpack (On)";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"24th_AB_AUX\Equipment\Backpacks\Jumpacks\Tex\24th_Jetpack.paa"
+		};
     };
 
     class 24th_Athena_Jumpack_LR: 24th_Athena_Jumpack
@@ -73,11 +87,12 @@ class CfgVehicles
 		tf_hasLRradio=1;
 		hiddenSelections[]=
 		{
+			"camo",
 			"camo1"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			""
+			"24th_AB_AUX\Equipment\Backpacks\Jumpacks\Tex\24th_Jetpack.paa"
 		};
 	};
 };
