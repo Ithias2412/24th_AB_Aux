@@ -741,7 +741,7 @@ class 24th_Armor_Recruit_Heavy: 24th_Armor_Recruit
 		};
 	};	
 
-class 24th_Armor_Rifleman_Heavy: 24th_Armor_Recruit
+class 24th_Armor_Rifleman_Heavy: 24th_Armor_Recruit_Heavy
 	{
 		author="Article 2 Studios";
 		picture="\OPTRE_UNSC_Units\Army\icons\Army_vest_wdl.paa";
@@ -808,7 +808,7 @@ class 24th_Armor_Rifleman_Heavy: 24th_Armor_Recruit
 		};
 	};
 
-class 24th_Armor_TL_Heavy: 24th_Armor_Recruit
+class 24th_Armor_TL_Heavy: 24th_Armor_Recruit_Heavy
 	{
 		author="Article 2 Studios";
 		picture="\OPTRE_UNSC_Units\Army\icons\Army_vest_wdl.paa";
@@ -875,7 +875,7 @@ class 24th_Armor_TL_Heavy: 24th_Armor_Recruit
 		};
 	};
 
-class 24th_Armor_SL_Heavy: 24th_Armor_Recruit
+class 24th_Armor_SL_Heavy: 24th_Armor_Recruit_Heavy
 	{
 		author="Article 2 Studios";
 		picture="\OPTRE_UNSC_Units\Army\icons\Army_vest_wdl.paa";
@@ -942,7 +942,7 @@ class 24th_Armor_SL_Heavy: 24th_Armor_Recruit
 		};
 	};
 
-class 24th_Armor_Medic_Heavy: 24th_Armor_Recruit
+class 24th_Armor_Medic_Heavy: 24th_Armor_Recruit_Heavy
 	{
 		author="Article 2 Studios";
 		picture="\OPTRE_UNSC_Units\Army\icons\Army_vest_wdl.paa";
@@ -1009,7 +1009,7 @@ class 24th_Armor_Medic_Heavy: 24th_Armor_Recruit
 		};
 	};
 
-class 24th_Armor_JTAC_Heavy: 24th_Armor_Recruit
+class 24th_Armor_JTAC_Heavy: 24th_Armor_Recruit_Heavy
 	{
 		author="Article 2 Studios";
 		picture="\OPTRE_UNSC_Units\Army\icons\Army_vest_wdl.paa";

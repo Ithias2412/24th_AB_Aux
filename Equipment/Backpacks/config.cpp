@@ -29,27 +29,6 @@ class CfgVehicles
 
 //Base Items
 
-
-	/*class OPTRE_S12_SOLA_Jetpack: OPTRE_ILCS_Rucksack_Black
-	{
-		dlc="OPTRE";
-		author="Article 2 Studios";
-		picture="\OPTRE_weapons\backpacks\icons\icon_jetpack_ca.paa";
-		displayName="S12 SOLA Jetpack";
-		model="\OPTRE_weapons\backpacks\jetpack.p3d";
-		model="\OPTRE_weapons\backpacks\jetpack_on.p3d";
-		maximumLoad=1;
-		mass=60;
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"optre_weapons\backpacks\data\jetpack_co.paa"
-		};
-	};*/
-
 //Woodland Rucksacks
 	class 24th_Athena_Rucksack_Basic_Woodland: OPTRE_UNSC_Rucksack
 	{
@@ -128,7 +107,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"24th_AB_AUX\Equipment\Backpacks\Tex\24th_Athena_Rucksack_Woodland.paa",
+			"24th_AB_AUX\Equipment\Backpacks\Tex\24th_Athena_Rucksack_Woodland_LR.paa",
 			""
 		};
 		tf_isolatedAmount=0.64999998;
@@ -218,7 +197,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"24th_AB_AUX\Equipment\Backpacks\Tex\24th_Athena_Rucksack_Urban.paa",
+			"24th_AB_AUX\Equipment\Backpacks\Tex\24th_Athena_Rucksack_Urban_LR.paa",
 			""
 		};
 		tf_isolatedAmount=0.64999998;
@@ -308,7 +287,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"24th_AB_AUX\Equipment\Backpacks\Tex\24th_Athena_Rucksack_Desert.paa",
+			"24th_AB_AUX\Equipment\Backpacks\Tex\24th_Athena_Rucksack_Desert_LR.paa",
 			""
 		};
 		tf_isolatedAmount=0.64999998;
@@ -399,7 +378,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"24th_AB_AUX\Equipment\Backpacks\Tex\24th_Athena_Rucksack_Snow.paa",
+			"24th_AB_AUX\Equipment\Backpacks\Tex\24th_Athena_Rucksack_Snow_LR.paa",
 			""
 		};
 		tf_isolatedAmount=0.64999998;
@@ -412,7 +391,7 @@ class CfgVehicles
 	};
 
 
-//Satchel
+//Satchels
 
     class 24th_Athena_Satchel_Medic: OPTRE_ONI_Researcher_Suitcase
     {
@@ -421,26 +400,140 @@ class CfgVehicles
 		scope=2;
 		scopeArsenal=2;
 		displayName="[24th] Athena Satchel (Medic)";
+		/*
 		tf_isolatedAmount=0.64999998;
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="anarc210_radio_dialog";
 		tf_subtype="digital_lr";
 		tf_range=120000;
 		tf_dialogUpdate="[""%1""] call TFAR_fnc_updateLRDialogToChannel;";
-		tf_hasLRradio=1;
-/*		hiddenSelections[]=
+		tf_hasLRradio=1; 
+		*/
+		hiddenSelections[]=
 		{
 			"camo"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"53rd_SC_Aux\tex\Backpacks\research_bag_CO_Medical.paa"
-		}; */
+			"24th_AB_AUX\Equipment\Backpacks\Tex\24th_Athena_Satchel_Medic.paa",
+		}; 
 		maximumLoad=400;
 		mass=1;
 	};
+	
+    class 24th_Athena_Satchel_Large: OPTRE_ONI_Researcher_Suitcase
+    {
+		author="Ithias";
+		dlc="24th Aux";
+		scope=2;
+		scopeArsenal=2;
+		displayName="[24th] Athena Satchel (Basic / Large)";
+		/*
+		tf_isolatedAmount=0.64999998;
+		tf_encryptionCode="tf_west_radio_code";
+		tf_dialog="anarc210_radio_dialog";
+		tf_subtype="digital_lr";
+		tf_range=120000;
+		tf_dialogUpdate="[""%1""] call TFAR_fnc_updateLRDialogToChannel;";
+		tf_hasLRradio=1; 
+		*/
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"24th_AB_AUX\Equipment\Backpacks\Tex\24th_Athena_Satchel_Large.paa",
+		}; 
+		maximumLoad=350;
+		mass=1;
+	};
 
-//Customs
+    class 24th_Athena_Satchel_Small: OPTRE_ONI_Researcher_Suitcase
+    {
+		author="Ithias";
+		dlc="24th Aux";
+		scope=2;
+		scopeArsenal=2;
+		displayName="[24th] Athena Satchel (Basic / Small)";
+		/*
+		tf_isolatedAmount=0.64999998;
+		tf_encryptionCode="tf_west_radio_code";
+		tf_dialog="anarc210_radio_dialog";
+		tf_subtype="digital_lr";
+		tf_range=120000;
+		tf_dialogUpdate="[""%1""] call TFAR_fnc_updateLRDialogToChannel;";
+		tf_hasLRradio=1; 
+		*/
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"24th_AB_AUX\Equipment\Backpacks\Tex\24th_Athena_Satchel_Small.paa",
+		}; 
+		maximumLoad=350;
+		mass=1;
+	};
+
+
+    class 24th_Athena_Satchel_CreamOfSomeYoungGuy: OPTRE_ONI_Researcher_Suitcase
+    {
+		author="Ithias / Rainharuto";
+		dlc="24th Aux";
+		scope=2;
+		scopeArsenal=2;
+		displayName="[24th] Athena Satchel (CreamOfSomeYoungGuy)";
+		/*
+		tf_isolatedAmount=0.64999998;
+		tf_encryptionCode="tf_west_radio_code";
+		tf_dialog="anarc210_radio_dialog";
+		tf_subtype="digital_lr";
+		tf_range=120000;
+		tf_dialogUpdate="[""%1""] call TFAR_fnc_updateLRDialogToChannel;";
+		tf_hasLRradio=1; 
+		*/
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"24th_AB_AUX\Equipment\Backpacks\Tex\24th_Athena_CreamOfSomeYoungGuy.paa",
+		}; 
+		maximumLoad=350;
+		mass=1;
+	};
+
+//Invisable
+
+	class 24th_Athena_Rucksack_Basic_Invisable: OPTRE_UNSC_Rucksack
+	{
+		dlc="24th Aux";
+		author="Ithias";
+        scope=2;
+        scopeCurator=2;
+		displayName="[24th] Athena Rucksack (Basic / Invisable)";
+		model="";
+		maximumLoad=350;
+		mass=40;
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"B_Addons",
+			"B_Medic",
+			"B_Radio"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"24th_AB_AUX\Equipment\Backpacks\Tex\24th_Athena_Rucksack_Woodland.paa",
+			""
+		}; 
+	};
+
+
 //Longbow
 	class 24th_Pilot_Parachute: B_Parachute
 	{

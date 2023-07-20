@@ -2,7 +2,7 @@ class XtdGearModels
 {
 	class CfgWeapons
 	{
-		class AthenaVest
+		class 24th_Athena_Vest
 		{
 			label = "Athena Vests";
 			author = "Ithias";
@@ -38,25 +38,15 @@ class XtdGearModels
 			class Type
 			{
 				label = "Type";
-				values[] = {"Default","1st_Squad","2nd_Squad","3rd_Squad"};
+				values[] = {"Default","Heavy"};
 				class Default
 				{
 					label = "Default";
 					image = "#(rgb,8,8,3)color(0.2,0.2,0.2,0.4)";
 				};
-				class 1st_Squad
+				class Heavy
 				{
-					label = "1st Squad";
-					image = "#(rgb,8,8,3)color(0.2,0.2,0.2,0.4)";
-				};
-				class 2nd_Squad
-				{
-					label = "2nd Squad";
-					image = "#(rgb,8,8,3)color(0.2,0.2,0.2,0.4)";
-				};
-				class 3rd_Squad
-				{
-					label = "3rd Squad";
+					label = "Heavy";
 					image = "#(rgb,8,8,3)color(0.2,0.2,0.2,0.4)";
 				};
 			};
@@ -106,7 +96,7 @@ class XtdGearInfos
 //Recruit
 		class 24th_Athena_Armor_Recruit_Desert
 		{
-		model = "AthenaVest";
+		model = "24th_Athena_Vest";
 		Vest_Camo = "Desert";
 		Type = "Default";
 		Configuration = "Recruit";
@@ -126,7 +116,7 @@ class XtdGearInfos
 //Rifleman
 		class 24th_Athena_Armor_Rifleman_Desert
 		{
-		model = "AthenaVest";
+		model = "24th_Athena_Vest";
 		Vest_Camo = "Desert";
 		Type = "Default";
 		Configuration = "Rifleman";
@@ -146,7 +136,7 @@ class XtdGearInfos
 //TL
 		class 24th_Athena_Armor_TL_Desert
 		{
-		model = "AthenaVest";
+		model = "24th_Athena_Vest";
 		Vest_Camo = "Desert";
 		Type = "Default";
 		Configuration = "TL";
@@ -166,7 +156,7 @@ class XtdGearInfos
 //SL
 		class 24th_Athena_Armor_SL_Desert
 		{
-		model = "AthenaVest";
+		model = "24th_Athena_Vest";
 		Vest_Camo = "Desert";
 		Type = "Default";
 		Configuration = "SL";
@@ -186,7 +176,7 @@ class XtdGearInfos
 //Medic
 		class 24th_Athena_Armor_Medic_Desert
 		{
-		model = "AthenaVest";
+		model = "24th_Athena_Vest";
 		Vest_Camo = "Desert";
 		Type = "Default";
 		Configuration = "Medic";
@@ -206,7 +196,7 @@ class XtdGearInfos
 //JTAC
 		class 24th_Athena_Armor_JTAC_Desert
 		{
-		model = "AthenaVest";
+		model = "24th_Athena_Vest";
 		Vest_Camo = "Desert";
 		Type = "Default";
 		Configuration = "JTAC";
@@ -222,6 +212,34 @@ class XtdGearInfos
 		class 24th_Athena_Armor_JTAC_Woodland:24th_Athena_Armor_JTAC_Desert
 		{
 		Vest_Camo = "Woodland";
+		};
+//Heavy
+		class 24th_Athena_Armor_Recruit_Heavy
+		{
+		model = "24th_Athena_Vest";
+		Vest_Camo = "Urban";
+		Type = "Heavy";
+		Configuration = "Recruit";
+		};
+		class 24th_Athena_Armor_Rifleman_Heavy:24th_Athena_Armor_Recruit_Heavy
+		{
+		Configuration = "Rifleman";
+		};
+		class 24th_Athena_Armor_TL_Heavy:24th_Athena_Armor_Recruit_Heavy
+		{
+		Configuration = "TL";
+		};
+		class 24th_Athena_Armor_SL_Heavy:24th_Athena_Armor_Recruit_Heavy
+		{
+		Configuration = "SL";
+		};
+		class 24th_Athena_Armor_Medic_Heavy:24th_Athena_Armor_Recruit_Heavy
+		{
+		Configuration = "Medic";
+		};
+		class 24th_Athena_Armor_JTAC_Heavy:24th_Athena_Armor_Recruit_Heavy
+		{
+		Configuration = "JTAC";
 		};
 	};
 };
