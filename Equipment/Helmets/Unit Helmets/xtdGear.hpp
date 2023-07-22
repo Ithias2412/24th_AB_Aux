@@ -2,7 +2,7 @@ class XtdGearModels
 {
 	class CfgWeapons
 	{
-		class AthenaHelm
+		class 24th_Athena_Helm
 		{
 			label = "Athena Helmets";
 			author = "Ithias";
@@ -87,7 +87,7 @@ class XtdGearInfos
         //helmets
 		class 24th_Athena_Helmet_Silver_Desert
 		{
-		model = "AthenaHelm";
+		model = "24th_Athena_Helm";
 		Helm_Camo = "Desert";
 		Type = "Default";
         Visor="Silver";
@@ -107,7 +107,7 @@ class XtdGearInfos
 
 		class 24th_Athena_Helmet_Gold_Desert
 		{
-		model = "AthenaHelm";
+		model = "24th_Athena_Helm";
 		Helm_Camo = "Desert";
 		Type = "Default";
         Visor="Gold";
