@@ -16,6 +16,7 @@ class CfgPatches
         };  
     };  
 };
+#include "xtdGear.hpp"
 class CfgVehicles   
 {
     class NSM_neutral_XD_1_backpack;
@@ -151,6 +152,8 @@ class CfgVehicles
 			"24th_AB_AUX\Equipment\Backpacks\Jumpacks\Tex\24th_Jetpack.paa"
 		};
 	};
+
+//~X~
 
     class 24th_Athena_Jumpack_X_Basic: NSM_neutral_XD_1_backpack
     {

@@ -514,7 +514,7 @@ class CfgVehicles
 		author="Ithias";
         scope=2;
         scopeCurator=2;
-		displayName="[24th] Athena Rucksack (Basic / Invisable)";
+		displayName="[24th] Athena Rucksack (Invisable)";
 		model="";
 		maximumLoad=350;
 		mass=40;
