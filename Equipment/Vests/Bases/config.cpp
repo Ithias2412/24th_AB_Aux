@@ -36,6 +36,7 @@ class 24th_Armor_Recruit: OPTRE_UNSC_M52A_Armor_Base
 			"camo3",
 			"camo4",
 			"camo5",
+			"camo6",
 			"A_Base",
 			"A_ChestArmor",
 			"A_Ghillie",
@@ -92,7 +93,8 @@ class 24th_Armor_Recruit: OPTRE_UNSC_M52A_Armor_Base
 			"optre_unsc_units\army\data\armor_co.paa",
 			"optre_unsc_units\army\data\legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"optre_unsc_units\army\data\odst_armor_co.paa"
+			"optre_unsc_units\army\data\odst_armor_co.paa",
+			"optre_unsc_units\army\data\Soft_Packs_co.paa",
 		};
 		class ItemInfo: VestItem
 		{
@@ -152,6 +154,7 @@ class 24th_Armor_Recruit: OPTRE_UNSC_M52A_Armor_Base
 				"camo3",
 				"camo4",
 				"camo5",
+				"camo6",
 				//"A_Base",
 				//"A_ChestArmor",
 				"A_Ghillie",
@@ -208,7 +211,8 @@ class 24th_Armor_Recruit: OPTRE_UNSC_M52A_Armor_Base
 				"optre_unsc_units\army\data\armor_co.paa",
 				"optre_unsc_units\army\data\legs_co.paa",
 				"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-				"optre_unsc_units\army\data\odst_armor_co.paa"
+				"optre_unsc_units\army\data\odst_armor_co.paa",
+				"optre_unsc_units\army\data\Soft_Packs_co.paa",
 			};
 		};
 	};	
@@ -227,6 +231,7 @@ class 24th_Armor_Rifleman: 24th_Armor_Recruit
 				"camo3",
 				"camo4",
 				"camo5",
+				"camo6",
 				//"A_Base",
 				//"A_ChestArmor",
 				"A_Ghillie",
@@ -294,6 +299,7 @@ class 24th_Armor_TL: 24th_Armor_Recruit
 				"camo3",
 				"camo4",
 				"camo5",
+				"camo6",
 				//"A_Base",
 				//"A_ChestArmor",
 				"A_Ghillie",
@@ -361,6 +367,7 @@ class 24th_Armor_SL: 24th_Armor_Recruit
 				"camo3",
 				"camo4",
 				"camo5",
+				"camo6",
 				//"A_Base",
 				//"A_ChestArmor",
 				"A_Ghillie",
@@ -428,6 +435,7 @@ class 24th_Armor_Medic: 24th_Armor_Recruit
 				"camo3",
 				"camo4",
 				"camo5",
+				"camo6",
 				//"A_Base",
 				//"A_ChestArmor",
 				"A_Ghillie",
@@ -495,6 +503,7 @@ class 24th_Armor_JTAC: 24th_Armor_Recruit
 				"camo3",
 				"camo4",
 				"camo5",
+				"camo6",
 				//"A_Base",
 				//"A_ChestArmor",
 				"A_Ghillie",
@@ -564,6 +573,7 @@ class 24th_Armor_Recruit_Heavy: 24th_Armor_Recruit
 			"camo3",
 			"camo4",
 			"camo5",
+			"camo6",
 			"A_Base",
 			"A_ChestArmor",
 			"A_Ghillie",
@@ -620,7 +630,8 @@ class 24th_Armor_Recruit_Heavy: 24th_Armor_Recruit
 			"optre_unsc_units\army\data\armor_co.paa",
 			"optre_unsc_units\army\data\legs_co.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"optre_unsc_units\army\data\odst_armor_co.paa"
+			"optre_unsc_units\army\data\odst_armor_co.paa",
+			"optre_unsc_units\army\data\Soft_Packs_co.paa",
 		};
 		class ItemInfo: VestItem
 		{
@@ -680,6 +691,7 @@ class 24th_Armor_Recruit_Heavy: 24th_Armor_Recruit
 				"camo3",
 				"camo4",
 				"camo5",
+				"camo6",
 				//"A_Base",
 				//"A_ChestArmor",
 				"A_Ghillie",
@@ -736,7 +748,8 @@ class 24th_Armor_Recruit_Heavy: 24th_Armor_Recruit
 				"optre_unsc_units\army\data\armor_co.paa",
 				"optre_unsc_units\army\data\legs_co.paa",
 				"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-				"optre_unsc_units\army\data\odst_armor_co.paa"
+				"optre_unsc_units\army\data\odst_armor_co.paa",
+				"optre_unsc_units\army\data\Soft_Packs_co.paa",
 			};
 		};
 	};	
@@ -755,6 +768,7 @@ class 24th_Armor_Rifleman_Heavy: 24th_Armor_Recruit_Heavy
 				"camo3",
 				"camo4",
 				"camo5",
+				"camo6",
 				//"A_Base",
 				//"A_ChestArmor",
 				"A_Ghillie",
@@ -822,6 +836,7 @@ class 24th_Armor_TL_Heavy: 24th_Armor_Recruit_Heavy
 				"camo3",
 				"camo4",
 				"camo5",
+				"camo6",
 				//"A_Base",
 				//"A_ChestArmor",
 				"A_Ghillie",
@@ -889,6 +904,7 @@ class 24th_Armor_SL_Heavy: 24th_Armor_Recruit_Heavy
 				"camo3",
 				"camo4",
 				"camo5",
+				"camo6",
 				//"A_Base",
 				//"A_ChestArmor",
 				"A_Ghillie",
@@ -956,6 +972,7 @@ class 24th_Armor_Medic_Heavy: 24th_Armor_Recruit_Heavy
 				"camo3",
 				"camo4",
 				"camo5",
+				"camo6",
 				//"A_Base",
 				//"A_ChestArmor",
 				"A_Ghillie",
@@ -1023,6 +1040,7 @@ class 24th_Armor_JTAC_Heavy: 24th_Armor_Recruit_Heavy
 				"camo3",
 				"camo4",
 				"camo5",
+				"camo6",
 				//"A_Base",
 				//"A_ChestArmor",
 				"A_Ghillie",

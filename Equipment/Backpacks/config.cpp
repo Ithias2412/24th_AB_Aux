@@ -533,6 +533,19 @@ class CfgVehicles
 		}; 
 	};
 
+//NCO LR
+
+
+	class 24th_Athena_Rucksack_NCO_LR: OPTRE_ANPRC_515
+	{
+		dlc="24th Aux";
+		author="Ithias";
+        scope=2;
+        scopeCurator=2;
+		displayName="[24th] Athena Rucksack (NCO LR)";
+		maximumLoad=350;
+		mass=40;
+	};
 
 //Longbow
 	class 24th_Pilot_Parachute: B_Parachute
